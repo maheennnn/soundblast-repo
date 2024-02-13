@@ -1,0 +1,25 @@
+
+#ticker {
+  font-size: 24px;
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #05051a;
+  color: white;
+}
+
+@keyframes tickerAnimation {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+#tickerContent {
+  display: inline-block;
+  animation: tickerAnimation 10s linear infinite;
+}

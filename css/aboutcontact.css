@@ -1,0 +1,284 @@
+.footer{
+    /* background-color: black; */
+    margin-top: 100px;
+    width: 100%;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+.footernav{
+    margin: 30px;
+}
+.footernav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.footernav ul li a {
+    text-decoration: none;
+    color: white;
+    margin:20px;
+    font-size: 1.2em;
+    opacity: 0.5;
+}
+.footernav ul li a:hover{
+    opacity: 0.8;
+}
+.footerbottom{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: white;
+}
+.designer{
+    letter-spacing: 1px;
+    opacity: 0.6;
+}
+@media(max-width: 1200px){
+    .footerbottom{
+        width: 100%;
+    }
+}
+@media(max-width: 700px){
+     .footernav{
+         padding: 10px;
+     }
+     .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+     }
+     .footernav ul li a {
+        text-decoration: none;
+        color: white;
+        margin:10px;
+        font-size: 1em;
+        opacity: 0.5;
+    }
+    .footerbottom{
+        width: 100%;
+        background-color: black;
+        padding: 20px;
+        text-align: center;
+    }
+    .footerbottom p{
+        color: white;
+        width: 100%;
+    }
+
+}
+
+
+/* about us */
+#about{
+    padding-top: 40px;
+}
+.three,.four{
+    border: 1px solid white;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+.heading{
+    width: 85%;
+}
+.heading1{
+    color: #af0259;
+}
+.heading p{
+    color: white;
+    font-size: 1.2em;
+}
+.heading h3{
+    padding-top: 40px;
+}
+/* contact us */
+.four{
+    height: 300px;
+    box-sizing: border-box;
+}
+.contact h1{
+    padding-left: 40px;
+}
+.contact p{
+    color: white;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.c{
+    padding-top: 20px;
+}
+@media(max-width:992px){
+    .p{
+        font-size: 25px;
+    }
+    .five{
+        margin-left: -80px;
+    }
+    .g{
+        font-size:30px;
+        margin-left: -150px;
+    }
+    .gallerybtn{
+        margin-left: -90px;
+    }
+    .navbar-toggler{
+        position: relative;
+        right: 60px;
+    }
+}
+@media(max-width:768px){
+    .p{
+        font-size: 20px;
+    }
+    .five{
+        margin-left: -100px;
+        width: 200px;
+    }
+    .s{
+        font-size: 30px;
+    }
+    .g{
+        font-size:1rem;
+        margin-left: -250px;
+    }
+    .gallerybtn{
+        margin-left: -190px;
+    }
+    .five{
+        position: relative;
+        right: 100px;
+    }
+    .heading p{
+        font-size: 0.9em;
+    }
+    iframe{
+        margin-left: 200px;
+        margin-top: 30px;
+        width: 500px;
+        height: 400px;
+        box-shadow: 5px 5px 10px #e9d6f5;
+    }
+
+}
+@media(max-width:576px){
+    .a{
+        font-size: 35px;
+    }
+    .p{
+        font-size: 15px;
+        font-weight: lighter;
+    }
+    .three{
+        margin-left:100px;
+    }
+    .four{
+        margin-left: 100px;
+    }
+    .footer{
+        margin-left: 190px
+    }
+    .footerbottom{
+        width: 140%;
+    }
+    .heading1{
+        font-size: 30px;
+    }
+    .footernav ul li a {
+        font-size: 15px;
+        margin: 5px;
+    }
+    /* .footernav,.socialicons{
+        position: relative;
+        right: 115px;
+    } */
+    .six{
+        padding-left: 100px;
+        width: 700px;
+        margin-left: 60px;
+    }
+    .s{
+        font-size: 50px;
+    }
+    .g{
+        font-size:30px;
+        margin-left: -210px;
+    }
+    .gallerybtn{
+        margin-left: -150px;
+    }
+    /* .five{
+        position: relative;
+        left: 40px;
+    } */
+    iframe{
+        margin-left: 40px;
+        margin-top: 30px;
+        width: 250px;
+        height: 400px;
+        box-shadow: 5px 5px 10px #e9d6f5;
+    }
+    .navbar-toggler{
+        position: relative;
+        left: 200px;
+    }
+}
+/* sitemap */
+.five{
+    height: 500px;
+    margin-top: 50px;
+}
+.s{
+    padding-left: 450px;
+    padding-top: 30px;
+}
+iframe{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 700px;
+    height: 400px;
+    box-shadow: 5px 5px 10px #e9d6f5;
+}
+.six{
+    padding-left: 430px;
+    padding-top: 180px;
+    height: 500px;
+    margin-top: 70px;
+    background-image: url(../images/concert.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+}
+.g{
+    font-size: 5rem;
+    color: white;
+}
+button{
+    margin-left: 70px;
+}
+.gallerybtn{
+    border: 0px;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    transition: all;
+    transition-duration: 0.2s;
+}
+.gallerybtn:hover{
+    text-decoration: underline;
+}
